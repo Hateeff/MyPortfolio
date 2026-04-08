@@ -56,7 +56,7 @@ export const HeroSection = () => {
       <div className='bg-green-500 size-2.5 rounded-full relative'>
         <div className='bg-green-500 absolute inset-0 rounded-full animate-ping-large'></div>
       </div>
-    <div className='text-sm font-medium'>Available for new projects. Let's work together!</div>
+    <div className='text-sm font-medium'>Available for new projects. Let&apos;s work together!</div>
       </div>
       </div>
       <div className='max-w-lg mx-auto'>
@@ -71,7 +71,7 @@ export const HeroSection = () => {
       
       <a href='#contact' className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
         <span>👋</span>
-        <span className='font-semibold'>Lst's Connect</span>
+        <span className='font-semibold'>Let&apos;s Connect</span>
       </a>
     </div>
     </div>
