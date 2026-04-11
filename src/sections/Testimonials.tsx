@@ -20,12 +20,6 @@ const testimonials = [
     text: "Facilitated patient affairs at Prince Mutaib Bin Abdulaziz Hospital by managing medical reports, sick leave certifications, and patient records using integrated hospital information systems (HIS)",
     avatar: memojiAvatar2,
   },
-  {
-    name: "Volunteer - Technical Support",
-    position: "Culture House",
-    text: "Provided technical support, set up equipment, troubleshot common issues, and ensured smooth operation of devices during daily use and events",
-    avatar: memojiAvatar3,
-  },
 ];
 export const TestimonialsSection = () => {
   return (
