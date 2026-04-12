@@ -1,6 +1,6 @@
 import memojiAvatar1 from "@/assets/images/AljoufM.png";
 import memojiAvatar2 from "@/assets/images/AljoufCluster.jpg";
-import memojiAvatar3 from "@/assets/images/Culture.png";
+import memojiAvatar3 from "@/assets/images/newH.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import grainImage from "@/assets/images/grain.jpg";
@@ -20,13 +20,19 @@ const testimonials = [
     text: "Facilitated patient affairs at Prince Mutaib Bin Abdulaziz Hospital by managing medical reports, sick leave certifications, and patient records using integrated hospital information systems (HIS)",
     avatar: memojiAvatar2,
   },
+    {
+    name: "Position - IT Trainer",
+    position: "New Horizon Institute, Training Department",
+    text: "",
+    avatar: memojiAvatar3,
+  },
 ];
 export const TestimonialsSection = () => {
   return (
   <div className="py-16 lg:py-24">
     <div className="container">
-    <SectionHeader eyebrow="Practical Experience" title="Training & Volunteer Experience"
-     description="A collection of my practical experiences gained through training and volunteer work"/>
+    <SectionHeader eyebrow="Practical Experience" title="Professional Experience"
+     description="A collection of my practical experiences gained through work, training, and volunteering"/>
 
     <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
       <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
