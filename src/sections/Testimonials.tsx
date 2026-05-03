@@ -23,7 +23,7 @@ const testimonials = [
     {
     name: "Position - IT Trainer",
     position: "New Horizon Institute, Training Department",
-    text: "",
+    text: "I train students in computer literacy and various technical applications, delivering diploma-level courses in networking, cybersecurity, and software. I design and develop training materials aligned with learning objectives, conduct both theoretical and practical sessions, and assess student performance through exams, assignments, and activities. I also monitor attendance, track progress, and provide guidance and support to enhance students’ technical skills, while utilizing educational systems to effectively manage the training process.",
     avatar: memojiAvatar3,
   },
 ];
@@ -35,7 +35,7 @@ export const TestimonialsSection = () => {
      description="A collection of my practical experiences gained through work, training, and volunteering"/>
 
     <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-      <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
+      <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:70s] hover:[animation-play-state:paused]">
         {[...new Array(2).fill(0).map((_, index) => (
           <Fragment key={index}>
           {testimonials.map(testimonial => (
