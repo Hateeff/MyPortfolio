@@ -102,7 +102,7 @@ export const AboutSection = () => {
       title="My Resume" 
       description="Check up my Resume"/>
     <div className="flex justify-center mt-10">
-      <a href="/Hateef_Alkubaydan.pdf" target="_blank" rel="noopener noreferrer"
+      <a href="/Hateef_CV.pdf" target="_blank" rel="noopener noreferrer"
     className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 border border-gray-900 hover:scale-105 transition bg-gradient-to-r from-emerald-300 to-sky-400">
       <span className="font-medium text-gray-950">View</span>
       <ArrowUpRightIcon className="size-4 font-medium text-gray-950"/>
